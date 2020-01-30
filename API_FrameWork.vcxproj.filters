@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{71e18ebb-4095-48a9-bf64-0101a4b28e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{ea4c5740-10f5-4349-8ad6-d780ce577129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{1352499b-c472-4ac9-85cb-71b3f3226ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{18fb1c79-f50b-4b9b-a264-e066d2bca54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{ee673918-6273-48b6-b9d8-c4d87fd95bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{c6071c33-1efa-44cc-a846-47833fbef4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\airHockey">
+      <UniqueIdentifier>{39bebcaa-9455-42e5-82cf-bb4a0cd24958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\미니맵">
+      <UniqueIdentifier>{9ef7871e-78ab-4fce-9a27-805cd3fdce15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\슈팅">
+      <UniqueIdentifier>{8fc73e4e-75a7-444b-a609-eeef3c2db956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\슈팅\로켓">
+      <UniqueIdentifier>{66d45dfd-2041-4bad-ae4d-ec91788862d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\슈팅\bullet">
+      <UniqueIdentifier>{3568f46c-63c9-4702-a476-4529c428d97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\슈팅\에너미">
+      <UniqueIdentifier>{6f7b2776-aa77-4101-8311-cf0827b9c2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{63bdded0-ba64-47dd-adec-960c099f3b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래스바">
+      <UniqueIdentifier>{dae6b3b8-16b1-4a62-aec4-1313566bf949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{00ade87a-93a8-46f2-b42b-4e1b20260dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\testScene">
+      <UniqueIdentifier>{23a25639-8ac7-481e-aa11-d9e006b7ae5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="로딩">
+      <UniqueIdentifier>{ea0a14ee-3e8e-4fb0-828a-0a99336fa05e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="airHockey.h">
+      <Filter>mainGame\airHockey</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="minimap.h">
+      <Filter>mainGame\미니맵</Filter>
+    </ClInclude>
+    <ClInclude Include="rocket.h">
+      <Filter>mainGame\슈팅\로켓</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>mainGame\슈팅\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="minion.h">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene1.h">
+      <Filter>mainGame\testScene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2.h">
+      <Filter>mainGame\testScene</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundTest.h">
+      <Filter>mainGame\testScene</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingTest.h">
+      <Filter>mainGame\testScene</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollisionScene.h">
+      <Filter>mainGame\testScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="airHockey.cpp">
+      <Filter>mainGame\airHockey</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="minimap.cpp">
+      <Filter>mainGame\미니맵</Filter>
+    </ClCompile>
+    <ClCompile Include="rocket.cpp">
+      <Filter>mainGame\슈팅\로켓</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>mainGame\슈팅\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="minion.cpp">
+      <Filter>mainGame\슈팅\에너미</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene1.cpp">
+      <Filter>mainGame\testScene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2.cpp">
+      <Filter>mainGame\testScene</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundTest.cpp">
+      <Filter>mainGame\testScene</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingTest.cpp">
+      <Filter>mainGame\testScene</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollisionScene.cpp">
+      <Filter>mainGame\testScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
